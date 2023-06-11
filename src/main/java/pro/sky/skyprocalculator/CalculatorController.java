@@ -12,7 +12,6 @@ public class CalculatorController {
 
     public CalculatorController(pro.sky.skyprocalculator.CalculatorService calculatorService) {
         this.calculatorService = calculatorService;
-
     }
 
     @GetMapping
@@ -47,5 +46,6 @@ public class CalculatorController {
 
 
     }
+
 
 

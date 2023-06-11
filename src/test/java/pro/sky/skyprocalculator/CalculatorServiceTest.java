@@ -36,10 +36,7 @@ public class CalculatorServiceTest {
         Assertions.assertEquals(expectedSum,actualSum);
 
 
-
-
     }
-
 
         @Test
     public void shouldThrowExceptionWhenSecondNumberIsZero(){
@@ -49,6 +46,7 @@ public class CalculatorServiceTest {
                     calculatorService.divideCalculator(num1,num2));
 
                 }}
+
 
 
 
